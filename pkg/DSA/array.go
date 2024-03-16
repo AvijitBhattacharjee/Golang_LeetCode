@@ -1,20 +1,13 @@
 // Copyright (c) avijit bhattacharjee 2024
 
-package main 
-  
+package DSA // Add package name
+
 import "fmt"
-  
-func main() { 
-  
-// Shorthand declaration of array 
-arr:= [4]string{"geek", "gfg", "Geeks1231", "GeeksforGeeks"} 
-  
-// Accessing the elements of  
-// the array Using for loop 
-fmt.Println("Elements of the array:") 
-  
-for i:= 0; i < 3; i++{ 
-fmt.Println(arr[i]) 
-} 
-  
-} 
+
+func PrintArray() { // Change main to a different function name
+    arr := [4]string{"geek", "gfg", "Geeks1231", "GeeksforGeeks"}
+    fmt.Println("Elements of the array:")
+    for i := 0; i < 3; i++ {
+        fmt.Println(arr[i])
+    }
+}
