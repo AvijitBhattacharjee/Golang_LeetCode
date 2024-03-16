@@ -33,7 +33,7 @@ jobs:
       - name: Install golint
         run: |
           go install golang.org/x/lint/golint@latest
-          apt install golint
+          sudo apt install golint
 
       - name: Lint Go code
         run: golint ./...
