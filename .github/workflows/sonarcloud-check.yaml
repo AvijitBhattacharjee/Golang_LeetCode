@@ -23,7 +23,10 @@ jobs:
 
       - name: Install SonarCloud Scanner
         run: |
-          curl -sLo sonar-scanner-cli.zip https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.7.2.21-linux.zip
+          curl -sLo sonar-scanner-cli.zip \
+          https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/\
+          sonar-scanner-cli-4.7.2.21-linux.zip
+
           unzip -o sonar-scanner-cli.zip
           export PATH="$PWD/sonar-scanner-4.7.2.21-linux/bin:$PATH"
           chmod +x sonar-scanner-4.7.2.21-linux/bin/sonar-scanner
