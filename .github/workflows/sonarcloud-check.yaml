@@ -34,4 +34,3 @@ jobs:
           SONAR_ORGANIZATION: "<Your SonarCloud organization>"
           SONAR_PROJECT_KEY: "<Your SonarCloud project key>"
         run: sonar-scanner
-

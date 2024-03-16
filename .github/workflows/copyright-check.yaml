@@ -15,9 +15,9 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Giving permission to copyright script
-        run: 
+        run:
           chmod +x build-scripts/copyright_check.sh
-          
+
       - name: Run copyright check
-        run: 
-          ./build-scripts/copyright_check.sh    
+        run:
+          ./build-scripts/copyright_check.sh
