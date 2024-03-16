@@ -3,7 +3,7 @@
 current_year=$(date +"%Y")
 missing_copyright=false
 
-for file in $(find . -name "*.java"); do
+for file in $(find . -name "*.go"); do
     first_line=$(head -n 1 "$file")
     if [[ ! "$first_line" =~ ^\/\/.*avijit\ bhattacharjee.*$current_year ]]; then
         echo "File $file is missing copyright comment"
