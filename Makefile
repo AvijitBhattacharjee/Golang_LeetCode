@@ -2,10 +2,10 @@
 
 # Define targets
 lint:
-    golint ./..
+	golint ./..
 test:
-    go test ./...
+	go test ./...
 build:
-  go build -o myapp ./cmd/myapp/main.go
+	go build -o myapp ./main.go
 clean:
-    rm -f myapp
+	rm -f myapp
