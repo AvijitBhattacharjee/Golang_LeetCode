@@ -36,10 +36,13 @@ jobs:
           sudo apt install golint
 
       - name: Lint Go code
-        run: golint ./...
-
-      - name: Running go code
-        run: sudo go run ./main.go
+        run: make lint
 
       - name: Run unit tests
-        run: go test ./...
+        run: make test
+
+      - name: Build Go app
+        run: make build
+
+      - name: Clean up
+        run: make clean
