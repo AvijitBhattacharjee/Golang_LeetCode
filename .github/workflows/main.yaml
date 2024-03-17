@@ -38,5 +38,8 @@ jobs:
       - name: Lint Go code
         run: golint ./...
 
+      - name: Running go code
+        run: sudo go run ./main.go
+
       - name: Run unit tests
         run: go test ./...

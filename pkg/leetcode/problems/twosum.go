@@ -1,10 +1,13 @@
 // Copyright (c) avijit bhattacharjee 2024
 
-package main
+package problems
 
 import "fmt"
 
-func main() {
+func Twosum_solution() {
+	fmt.Println("Solving LeetCode problem 1...")
+	// Add your solution for LeetCode problem 1 here
+
 	var arr = []int{1, 2, 3, 4, 5}
 	fmt.Println(twoSum(arr, 6))
 }
