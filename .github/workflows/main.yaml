@@ -39,7 +39,7 @@ jobs:
         run: golint ./...
 
       - name: Running go code
-        run : go run main.go
+        run: go run main.go
 
       - name: Run unit tests
         run: go test ./...
