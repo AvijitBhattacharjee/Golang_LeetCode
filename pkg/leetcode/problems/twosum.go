@@ -5,7 +5,7 @@ package problems
 import "fmt"
 
 func Twosum_solution() {
-	fmt.Println("Solving LeetCode problem 1...")
+	fmt.Println("Solving LeetCode problem TwoSum...")
 	// Add your solution for LeetCode problem 1 here
 
 	var arr = []int{1, 2, 3, 4, 5}
