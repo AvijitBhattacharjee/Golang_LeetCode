@@ -1,4 +1,3 @@
-
 // Copyright (c) avijit bhattacharjee 2024
 
 // https://leetcode.com/problems/remove-element/description/
