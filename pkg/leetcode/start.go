@@ -13,4 +13,5 @@ func Start() {
 	problems.Anagram()
 	problems.Remove_element()
 	problems.RemoveDuplicate()
+	problems.Minimum_Number();
 }
