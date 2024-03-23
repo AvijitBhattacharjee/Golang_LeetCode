@@ -10,6 +10,8 @@ import (
 func Start() {
 	fmt.Println("Solving LeetCode problems...")
 	problems.Twosum_solution()
-	problems.Anagram();
-	problems.Remove_element();
+	problems.Anagram()
+	problems.Remove_element()
+	problems.RemoveDuplicate()
+	problems.Minimum_Number();
 }
