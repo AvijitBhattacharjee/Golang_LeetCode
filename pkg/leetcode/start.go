@@ -13,5 +13,7 @@ func Start() {
 	problems.Anagram()
 	problems.Remove_element()
 	problems.RemoveDuplicate()
-	problems.Minimum_Number();
+	problems.Minimum_Number()
+	problems.Majority_Element()
+	problems.Max_Wealth()
 }
