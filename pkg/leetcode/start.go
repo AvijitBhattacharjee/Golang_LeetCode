@@ -16,4 +16,6 @@ func Start() {
 	problems.Minimum_Number()
 	problems.Majority_Element()
 	problems.Max_Wealth()
+	problems.UglyNumber()
+	problems.Isphormic()
 }
