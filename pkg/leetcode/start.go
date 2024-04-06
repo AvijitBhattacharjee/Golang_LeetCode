@@ -18,4 +18,6 @@ func Start() {
 	problems.Max_Wealth()
 	problems.UglyNumber()
 	problems.Isphormic()
+	problems.UniqueEmail()
+	problems.CountingConsistentStrings()
 }
