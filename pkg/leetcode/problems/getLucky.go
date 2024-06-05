@@ -1,4 +1,4 @@
-// Copyright (c) Avijit Bhattacharjee 2024
+// Copyright (c) avijit bhattacharjee 2024
 
 // https://leetcode.com/problems/sum-of-digits-of-string-after-convert/
 
