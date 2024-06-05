@@ -25,6 +25,10 @@ func Start() {
 	problems.KthDistinct()
 	problems.CountCommonWords()
 
+	problems.HappyNumber()
+	problems.AddDigits()
+	problems.GetLucky()
+
 
 	
 }
