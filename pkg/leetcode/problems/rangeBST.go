@@ -2,7 +2,7 @@
 
 package problems
 
-import "fmt"
+// import "fmt"
 
 /**
  * Definition for a binary tree node.
@@ -12,24 +12,24 @@ import "fmt"
  *     Right *TreeNode
  * }
  */
- func rangeSumBST(low int, high int) int {
+//  func rangeSumBST(low int, high int) int {
 
-    var res *int
-	res 
-    // if root == nil {
-    //     return res
-    // }
-    // if root.Val >= low && root.Val <= high {
-    //     res = res + root.Val
-    // }
-    // rangeSumBST(root.Left, low, high)
-    // rangeSumBST(root.Right, low, high)
-	if res >= low && res <= high {
-		return res
-	}
-    return 0
-}
+//     var res *int
+// 	res 
+//     if root == nil {
+//         return res
+//     }
+//     if root.Val >= low && root.Val <= high {
+//         res = res + root.Val
+//     }
+//     rangeSumBST(root.Left, low, high)
+//     rangeSumBST(root.Right, low, high)
+// 	if res >= low && res <= high {
+// 		return res
+// 	}
+//     return 0
+// }
 
-func main() {
-	fmt.Println(rangeSumBST())
-}
+// func main() {
+// 	fmt.Println(rangeSumBST())
+// }

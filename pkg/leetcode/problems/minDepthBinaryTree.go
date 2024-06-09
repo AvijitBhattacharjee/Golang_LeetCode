@@ -10,27 +10,27 @@ package problems
  *     Right *TreeNode
  * }
  */
- func minDepth(root *TreeNode) int {
+//  func minDepth(root *TreeNode) int {
 
-    if root == nil {
-        return 0
-    }
-    left := minDepth(root.Left)
-    right := minDepth(root.Right)
+//     if root == nil {
+//         return 0
+//     }
+//     left := minDepth(root.Left)
+//     right := minDepth(root.Right)
 
-    return 1 + min(left, right)
+//     return 1 + min(left, right)
     
-}
+// }
 
-func min(a,b int) int {
-    if a == 0 {
-        return b
-    }
-    if b == 0 {
-        return a
-    }
-    if a < b {
-        return a
-    }
-    return b
-}
+// func min(a,b int) int {
+//     if a == 0 {
+//         return b
+//     }
+//     if b == 0 {
+//         return a
+//     }
+//     if a < b {
+//         return a
+//     }
+//     return b
+// }
