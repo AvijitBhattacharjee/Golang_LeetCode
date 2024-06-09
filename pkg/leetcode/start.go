@@ -24,10 +24,13 @@ func Start() {
 	problems.RankTeams()
 	problems.KthDistinct()
 	problems.CountCommonWords()
-
 	problems.HappyNumber()
 	problems.AddDigits()
 	problems.GetLucky()
+	// problems.SearchBST()
+	//problems.NumTrees()
+	problems.Practice()
+	problems.FindPermutationDifference()
 
 
 	
