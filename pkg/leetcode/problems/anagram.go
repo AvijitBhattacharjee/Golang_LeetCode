@@ -22,10 +22,16 @@ func compare(str1, str2 string) bool {
 }
 
 func getKey(str string) string {
+	// Normalize the string to lowercase to handle case insensitivity
+	str = strings.ToLower(str)
+
+	// Create a slice to count character frequencies
 	var res = make([]int, 26)
 
 	for _, value := range str {
-		res[value - 'a']++
+		if value >= 'a' && value <= 'z' { // Ensure only lowercase letters are processed
+			res[value-'a']++
+		}
 	}
 	return fmt.Sprint(res)
 }
